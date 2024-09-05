@@ -1,0 +1,6 @@
+@FplHelper.Server_HostAddress = http://localhost:5002
+
+GET {{FplHelper.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

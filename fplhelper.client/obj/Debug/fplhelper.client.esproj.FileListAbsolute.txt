@@ -1,0 +1,2 @@
+D:\Workspace\C#\FplHelper\fplhelper.client\obj\Debug\fplhelper.client.esproj.CoreCompileInputs.cache
+D:\Workspace\CSharp\FPLHelper\fplhelper.client\obj\Debug\fplhelper.client.esproj.CoreCompileInputs.cache

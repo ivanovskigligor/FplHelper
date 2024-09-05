@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\CSharp\\FPLHelper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\components\\getfpldata\\getfpleventdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\components\\getfpldata\\getfpleventdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\fplapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\fplapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetFplEventData.jsx",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
+              "RelativeDocumentMoniker": "fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
+              "RelativeToolTip": "fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-09-05T11:44:11.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FplApi.js",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\FplApi.js",
+              "RelativeDocumentMoniker": "fplhelper.client\\src\\FplApi.js",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\FplApi.js",
+              "RelativeToolTip": "fplhelper.client\\src\\FplApi.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-05T11:42:24.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "fplhelper.client\\src\\App.jsx",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\App.jsx",
+              "RelativeToolTip": "fplhelper.client\\src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-09-04T19:03:49.663Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
