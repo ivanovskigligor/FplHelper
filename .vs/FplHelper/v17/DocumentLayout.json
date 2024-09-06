@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\Workspace\\CSharp\\FPLHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\components\\getfpldata\\getfpleventdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\components\\getfpldata\\getfpleventdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\fplapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\fplapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,19 +47,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "postcss.config.js",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\postcss.config.js",
+              "RelativeDocumentMoniker": "fplhelper.client\\postcss.config.js",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\postcss.config.js",
+              "RelativeToolTip": "fplhelper.client\\postcss.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-06T16:50:46.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\package.json",
+              "RelativeDocumentMoniker": "fplhelper.client\\package.json",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\package.json",
+              "RelativeToolTip": "fplhelper.client\\package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T16:46:19.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\index.css",
+              "RelativeDocumentMoniker": "fplhelper.client\\src\\index.css",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\index.css",
+              "RelativeToolTip": "fplhelper.client\\src\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-06T16:44:28.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\tailwind.config.js",
+              "RelativeDocumentMoniker": "fplhelper.client\\tailwind.config.js",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\tailwind.config.js",
+              "RelativeToolTip": "fplhelper.client\\tailwind.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-06T16:44:09.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GetFplEventData.jsx",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
               "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
               "RelativeToolTip": "fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-09-05T11:44:11.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FplApi.js",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\FplApi.js",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\FplApi.js",
@@ -51,17 +119,18 @@
               "RelativeToolTip": "fplhelper.client\\src\\FplApi.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-05T11:42:24.233Z"
+              "WhenOpened": "2024-09-05T11:42:24.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "App.jsx",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\App.jsx",
               "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\App.jsx",
               "RelativeToolTip": "fplhelper.client\\src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-09-04T19:03:49.663Z",
               "EditorCaption": ""

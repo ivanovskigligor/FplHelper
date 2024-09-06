@@ -7,6 +7,8 @@ import path from 'path';
 import child_process from 'child_process';
 import { env } from 'process';
 
+import tailwindcss from 'tailwindcss'
+
 const baseFolder =
     env.APPDATA !== undefined && env.APPDATA !== ''
         ? `${env.APPDATA}/ASP.NET/https`
@@ -53,5 +55,10 @@ export default defineConfig({
             key: fs.readFileSync(keyFilePath),
             cert: fs.readFileSync(certFilePath),
         }
+    },
+    css: {
+        postcss: {
+            plugins: [tailwindcss()],
+        },
     }
 })
