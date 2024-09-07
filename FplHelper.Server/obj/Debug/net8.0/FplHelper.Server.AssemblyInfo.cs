@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FplHelper.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a49a83ebbb98601956d1bda569a4a045c0dd78f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e900caf9e66ecf9103808b82e335993d22069a61")]
 [assembly: System.Reflection.AssemblyProductAttribute("FplHelper.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FplHelper.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

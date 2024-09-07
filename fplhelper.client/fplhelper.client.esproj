@@ -10,5 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="src\Components\Navbar\" />
+    <Folder Include="src\Pages\HomePage\" />
   </ItemGroup>
 </Project>

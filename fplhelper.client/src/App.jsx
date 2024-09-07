@@ -1,18 +1,22 @@
-import { useEffect, useState } from 'react';
- 
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import GetFplEventData from "./Components/GetFplData/GetFplEventData";
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter } from "react-router-dom";
-import GetPlayerData from './Components/GetFplData/GetPlayerData';
+import HomePage from './Pages/HomePage/HomePage';
+import GetSinglePlayerData from './Components/GetFplData/GetSinglePlayerData';
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <h1>Welcome to the Fantasy Premier League Helper App</h1>
-            <GetFplEventData />
-            <GetPlayerData />
-        </BrowserRouter>
+        <>
+            <Navbar />
+            <main className="bg-gray-100 min-h-screen flex flex-col">
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="player/:id" element={<GetSinglePlayerData />} />
+
+                </Routes>
+            </main>
+        </>
     );
 };
 

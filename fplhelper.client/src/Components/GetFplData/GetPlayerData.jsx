@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { getFplData } from '../../FplApi';
+import GetSinglePlayerData from './GetSinglePlayerData';
+
+
 
 const GetPlayerData = () => {
     const [data, setData] = useState(null);
@@ -8,6 +11,7 @@ const GetPlayerData = () => {
     const [sortOrder, setSortOrder] = useState("dsc");
     const [currentPage, setCurrentPage] = useState(1);
     const [searchQuery, setSearchQuery] = useState('');
+    const [currentPlayerId, setCurrentPlayerId] = useState(null);
 
     const playersPerPage = 10;
 
@@ -161,7 +165,15 @@ const GetPlayerData = () => {
                     {displayedPlayers.map(player => (
                         <tr key={player.id}>
                             <td className="py-2 px-4 border">
-                                {player.first_name} {player.second_name}
+                                <span
+                                    className="cursor-pointer text-blue-500 hover:underline text-white"
+                                    onClick={() => {
+                                        setCurrentPlayerId(player.id);
+                                        console.log(currentPlayerId);
+                                    } }
+                                >
+                                    {player.first_name} {player.second_name}
+                                </span>
                             </td>
                             <td className="py-2 px-4 border">
                                 {displayTeams[player.team - 1] ? displayTeams[player.team - 1].name : 'Unknown Team'}
@@ -189,6 +201,7 @@ const GetPlayerData = () => {
                 </button>
             </div>
 
+            <GetSinglePlayerData playerId={currentPlayerId} />
         </div>
     );
 };
