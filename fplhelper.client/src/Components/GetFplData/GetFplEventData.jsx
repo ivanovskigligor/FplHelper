@@ -76,7 +76,7 @@ const GetFplEventData = () => {
             </div>
 
             {currentEvent && (
-                <table className="min-w-full bg-white border-collapse bg-gray-700 text-white ">
+                <table className="min-w-full border-collapse bg-gray-700 text-white ">
                     <thead>
                         <tr >
                             <th className="py-2 px-4 border text-center align-middle">Average Score</th>
