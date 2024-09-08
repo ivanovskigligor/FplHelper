@@ -11,3 +11,13 @@ export const getFplData = async () => {
         throw error;
     }
 };
+
+export const GetFplElementSummary = async (playerId) => {
+    try {
+        const response = await axios.get(`${BACKEND_URL}/${playerId}`);
+        return response.data;
+    } catch (error) {
+        console.error(`Error fetching data for player ${playerId}`, error);
+        throw error;
+    }
+};

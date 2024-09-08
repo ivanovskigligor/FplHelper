@@ -67,3 +67,4 @@ D:\Workspace\CSharp\FPLHelper\FplHelper.Server\obj\Debug\net8.0\refint\FplHelper
 D:\Workspace\CSharp\FPLHelper\FplHelper.Server\obj\Debug\net8.0\FplHelper.Server.pdb
 D:\Workspace\CSharp\FPLHelper\FplHelper.Server\obj\Debug\net8.0\FplHelper.Server.genruntimeconfig.cache
 D:\Workspace\CSharp\FPLHelper\FplHelper.Server\obj\Debug\net8.0\ref\FplHelper.Server.dll
+D:\Workspace\CSharp\FPLHelper\FplHelper.Server\obj\Debug\net8.0\FplHelper.Server.sourcelink.json

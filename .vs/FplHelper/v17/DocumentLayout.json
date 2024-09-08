@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Workspace\\CSharp\\FPLHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\components\\getfpldata\\getsingleplayerdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\components\\getfpldata\\getsingleplayerdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\fplapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\fplapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\pages\\homepage\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\pages\\homepage\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\components\\navbar\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\components\\navbar\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B79A19C4-F600-43E5-808E-3A3B698A75B2}|FplHelper.Server\\FplHelper.Server.csproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.server\\controllers\\apicontroller\\fplcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79A19C4-F600-43E5-808E-3A3B698A75B2}|FplHelper.Server\\FplHelper.Server.csproj|solutionrelative:fplhelper.server\\controllers\\apicontroller\\fplcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\components\\getfpldata\\getplayerdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -25,6 +21,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\components\\getfpldata\\getfpleventdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\components\\getfpldata\\getfpleventdata.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\pages\\homepage\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\pages\\homepage\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\components\\navbar\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\components\\navbar\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|solutionrelative:fplhelper.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7491AAC-0A7F-4F39-AC36-80A2B33F2D99}|fplhelper.client\\fplhelper.client.esproj|d:\\workspace\\csharp\\fplhelper\\fplhelper.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -47,6 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FplApi.js",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\FplApi.js",
+              "RelativeDocumentMoniker": "fplhelper.client\\src\\FplApi.js",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\FplApi.js",
+              "RelativeToolTip": "fplhelper.client\\src\\FplApi.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-08T14:59:33.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FplController.cs",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\FplHelper.Server\\Controllers\\ApiController\\FplController.cs",
+              "RelativeDocumentMoniker": "FplHelper.Server\\Controllers\\ApiController\\FplController.cs",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\FplHelper.Server\\Controllers\\ApiController\\FplController.cs",
+              "RelativeToolTip": "FplHelper.Server\\Controllers\\ApiController\\FplController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAA5wDsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T14:44:54.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetSinglePlayerData.jsx",
+              "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetSinglePlayerData.jsx",
+              "RelativeDocumentMoniker": "fplhelper.client\\src\\Components\\GetFplData\\GetSinglePlayerData.jsx",
+              "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetSinglePlayerData.jsx",
+              "RelativeToolTip": "fplhelper.client\\src\\Components\\GetFplData\\GetSinglePlayerData.jsx",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-09-07T22:04:42.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "main.jsx",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\main.jsx",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\main.jsx",
@@ -54,64 +105,59 @@
               "RelativeToolTip": "fplhelper.client\\src\\main.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-09-07T21:55:39.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T21:55:39.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "HomePage.jsx",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Pages\\HomePage\\HomePage.jsx",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\Pages\\HomePage\\HomePage.jsx",
               "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Pages\\HomePage\\HomePage.jsx",
               "RelativeToolTip": "fplhelper.client\\src\\Pages\\HomePage\\HomePage.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-09-07T21:30:52.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T21:30:52.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "App.jsx",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\App.jsx",
               "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\App.jsx",
               "RelativeToolTip": "fplhelper.client\\src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-09-04T19:03:49.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T19:03:49.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Navbar.jsx",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\Navbar\\Navbar.jsx",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\Components\\Navbar\\Navbar.jsx",
               "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\Navbar\\Navbar.jsx",
               "RelativeToolTip": "fplhelper.client\\src\\Components\\Navbar\\Navbar.jsx",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAMAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-09-07T21:09:12.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T21:09:12.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GetPlayerData.jsx",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetPlayerData.jsx",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\Components\\GetFplData\\GetPlayerData.jsx",
               "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetPlayerData.jsx",
               "RelativeToolTip": "fplhelper.client\\src\\Components\\GetFplData\\GetPlayerData.jsx",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAowGYAAABBAAAA",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAAALUAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-09-06T21:06:06.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T21:06:06.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "App.css",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\App.css",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\App.css",
@@ -123,16 +169,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "GetFplEventData.jsx",
               "DocumentMoniker": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
               "RelativeDocumentMoniker": "fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
               "ToolTip": "D:\\Workspace\\CSharp\\FPLHelper\\fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
               "RelativeToolTip": "fplhelper.client\\src\\Components\\GetFplData\\GetFplEventData.jsx",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADMAAAAcAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAGwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-09-05T11:44:11.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T11:44:11.346Z"
             }
           ]
         }
