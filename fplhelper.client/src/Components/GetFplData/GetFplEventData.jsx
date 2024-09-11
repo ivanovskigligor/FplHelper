@@ -49,7 +49,7 @@ const GetFplEventData = () => {
 
 
     return (
-        <div className="p-6 bg-gray-800">
+        <div className="px-4 py-4 bg-gray-800">
             <div className="flex justify-center mb-6 space-x-4 ">
 
                 <IconButton
@@ -95,14 +95,15 @@ const GetFplEventData = () => {
                             <td className="py-2 px-4 border text-center align-middle">{currentEvent.highest_score || 'N/A'}</td>
                             <td className="py-2 px-4 border text-center align-middle">{currentEvent.transfers_made}</td>
                             <td className="py-2 px-4 border text-center align-middle">
-                                {currentEvent.is_previous ? "Week has passed" : currentEvent.deadline_time}
+                                {currentEvent.finished ? "Week has passed" : currentEvent.deadline_time}
                             </td>
 
                             <td className="py-2 px-4 border text-center align-middle">
-                                {currentMostCaptained && (`${currentMostCaptained.first_name}` + " " + `${currentMostCaptained.second_name}`)}
+                                {currentMostCaptained ? `${currentMostCaptained.first_name} ${currentMostCaptained.second_name}` : "N/A"}
+
                             </td>
-                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.chip_plays[0].num_played}</td>
-                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.chip_plays[1].num_played}</td>
+                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.chip_plays[0] ? currentEvent.chip_plays[0].num_played : "N/A"}</td>
+                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.chip_plays[1]  ? currentEvent.chip_plays[1].num_played : "N/A"}</td>
 
                         </tr>
                     </tbody>

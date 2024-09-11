@@ -47,6 +47,10 @@ const GetPlayerData = () => {
         }
     };
 
+    const handleClose = () => {
+        setCurrentPlayerId(null);
+    };
+
     const getPlayerPosition = (elementType) => {
         switch (elementType) {
             case 1: return 'Goalkeeper';
@@ -169,7 +173,6 @@ const GetPlayerData = () => {
                                     className="cursor-pointer text-blue-500 hover:underline text-white"
                                     onClick={() => {
                                         setCurrentPlayerId(player.id);
-                                        console.log(currentPlayerId);
                                     } }
                                 >
                                     {player.first_name} {player.second_name}
@@ -201,7 +204,8 @@ const GetPlayerData = () => {
                 </button>
             </div>
 
-            <GetSinglePlayerData playerId={currentPlayerId} />
+            {currentPlayerId && <GetSinglePlayerData playerId={currentPlayerId} onClose={handleClose} />}
+
         </div>
     );
 };
