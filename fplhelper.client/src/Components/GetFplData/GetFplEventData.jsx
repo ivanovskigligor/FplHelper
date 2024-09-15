@@ -49,61 +49,59 @@ const GetFplEventData = () => {
 
 
     return (
-        <div className="px-4 py-4 bg-gray-800">
+        <div className="bg-gray-800 px-4 py-4">
             <div className="flex justify-center mb-6 space-x-4 ">
 
                 <IconButton
                     onClick={handlePreviousWeek}
                     disabled={currentWeek === 1}
-                    className="px-4 py-2 bg-gray-100 hover:bg-gray-300 rounded disabled:opacity-50"
+                    className="px-4 py-2 rounded disabled:opacity-50"
                     aria-label="back"
-                    sx={{ color: 'white' }}
                 >
-                    <ArrowBackIcon />
+                    <ArrowBackIcon className="text-white"/>
                 </IconButton>
 
-                <h2 className="mx-4 text-xl font-bold text-white">GW {currentWeek}</h2>
+                <h2 className="pt-1 mx-4 text-xl font-bold text-white">GW {currentWeek}</h2>
                 <IconButton
                     onClick={handleNextWeek}
                     disabled={currentWeek === data.events.length}
-                    className="px-4 py-2 bg-gray-100 hover:bg-gray-300 rounded disabled:opacity-50"
+                    className="px-4 py-2 rounded disabled:opacity-50"
                     aria-label="back"
-                    sx={{ color: 'white' }}
                 >
 
-                    <ArrowForwardIcon />
+                    <ArrowForwardIcon className="text-white" />
                 </IconButton>
             </div>
 
             {currentEvent && (
-                <table className="min-w-full border-collapse bg-gray-700 text-white ">
-                    <thead>
-                        <tr >
-                            <th className="py-2 px-4 border text-center align-middle">Average Score</th>
-                            <th className="py-2 px-4 border text-center align-middle">Highest Score</th>
-                            <th className="py-2 px-4 border text-center align-middle">Transfers Made</th>
-                            <th className="py-2 px-4 border text-center align-middle">Week's Deadline</th>
-                            <th className="py-2 px-4 border text-center align-middle">Week's Most Captained</th>
-                            <th className="py-2 px-4 border text-center align-middle">Bench Boosts Played</th>
-                            <th className="py-2 px-4 border text-center align-middle">Triple Captain Played</th>
+                <table className="min-w-full border-collapse bg-gray-900 text-white">
+                    <thead className="bg-gray-700">
+                        <tr className="py-2 px-4 ">
+                            <th className="py-2 px-4 border text-center align-middle border-gray-900">Average Score</th>
+                            <th className="py-2 px-4 border text-center align-middle border-gray-900">Highest Score</th>
+                            <th className="py-2 px-4 border text-center align-middle border-gray-900">Transfers Made</th>
+                            <th className="py-2 px-4 border text-center align-middle border-gray-900">Week's Deadline</th>
+                            <th className="py-2 px-4 border text-center align-middle border-gray-900">Week's Most Captained</th>
+                            <th className="py-2 px-4 border text-center align-middle border-gray-900">Bench Boosts Played</th>
+                            <th className="py-2 px-4 border text-center align-middle border-gray-900">Triple Captain Played</th>
 
                         </tr>
                     </thead>
                     <tbody>
-                        <tr >
-                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.average_entry_score}</td>
-                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.highest_score || 'N/A'}</td>
-                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.transfers_made}</td>
-                            <td className="py-2 px-4 border text-center align-middle">
+                        <tr className="bg-gray-700 text-lg text-semibold font-semibold">
+                            <td className="py-2 px-4 border border-b-2 border-gray-900 text-center align-middle">{currentEvent.average_entry_score}</td>
+                            <td className="py-2 px-4 border border-b-2 border-gray-900 text-center align-middle">{currentEvent.highest_score || 'N/A'}</td>
+                            <td className="py-2 px-4 border border-b-2 border-gray-900 text-center align-middle">{currentEvent.transfers_made}</td>
+                            <td className="py-2 px-4 border border-b-2 border-gray-900 text-center align-middle">
                                 {currentEvent.finished ? "Week has passed" : currentEvent.deadline_time}
                             </td>
 
-                            <td className="py-2 px-4 border text-center align-middle">
+                            <td className="py-2 px-4 border border-b-2 border-gray-900 text-center align-middle">
                                 {currentMostCaptained ? `${currentMostCaptained.first_name} ${currentMostCaptained.second_name}` : "N/A"}
 
                             </td>
-                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.chip_plays[0] ? currentEvent.chip_plays[0].num_played : "N/A"}</td>
-                            <td className="py-2 px-4 border text-center align-middle">{currentEvent.chip_plays[1]  ? currentEvent.chip_plays[1].num_played : "N/A"}</td>
+                            <td className="py-2 px-4 border border-b-2 border-gray-900 text-center align-middle">{currentEvent.chip_plays[0] ? currentEvent.chip_plays[0].num_played : "N/A"}</td>
+                            <td className="py-2 px-4 border border-b-2 border-gray-900 text-center align-middle">{currentEvent.chip_plays[1]  ? currentEvent.chip_plays[1].num_played : "N/A"}</td>
 
                         </tr>
                     </tbody>

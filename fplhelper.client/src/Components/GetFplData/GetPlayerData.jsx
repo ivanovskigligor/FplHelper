@@ -113,16 +113,16 @@ const GetPlayerData = () => {
     const displayTeams = data.teams;
 
     return (
-        <div className="px-4 py-4 bg-gray-800">
-            <h2 className="text-2xl mb-4 text-white">Player List</h2>
+        <div className="bg-gray-800 px-4 py-4">
+
 
             <div className="mb-4 flex items-center justify-between">
                 {/* Sorting */}
                 <div className="flex items-center">
-                    <label htmlFor="sort-by" className="mr-2 text-lg text-white ">Sort by:</label>
+                    <label htmlFor="sort-by" className="mr-2 text-lg text-white">Sort by:</label>
                     <select
                         id="sort-by"
-                        className="px-4 py-2 bg-gray-200 rounded"
+                        className="px-4 py-2 bg-gray-200 border-gray-900 border rounded hover:bg-gray-300"
                         value={sortBy}
                         onChange={(e) => setSortBy(e.target.value)}>
                         <option value="">None</option>
@@ -133,7 +133,7 @@ const GetPlayerData = () => {
                     </select>
 
                     <button
-                        className="ml-4 px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
+                        className="ml-4 px-4 py-2 bg-gray-200 border-gray-900 border rounded hover:bg-gray-300"
                         onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
                     >
                         {sortOrder === 'asc' ? 'Ascending' : 'Descending'}
@@ -144,7 +144,7 @@ const GetPlayerData = () => {
                 <div>
                     <input
                         type="text"
-                        className="px-4 py-2 bg-gray-200 rounded"
+                        className="px-4 py-2 bg-gray-200 border-gray-900 border rounded hover:bg-gray-300"
                         placeholder="Search by player name"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}

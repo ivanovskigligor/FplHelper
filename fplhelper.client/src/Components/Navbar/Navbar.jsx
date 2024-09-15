@@ -2,18 +2,23 @@ import React from 'react';
 import './Navbar.css';
 import logo from './logo.png';
 import { Link } from 'react-router-dom';
+import LogoutLink from '../../Components/Authorization/LogoutLink';
+import AuthorizeView, { AuthorizedUser } from '../../Components/Authorization/AuthorizationView';
 
 const Navbar = () => {
     return (
-        <nav className="bg-gray-800 py-4">
+        <nav className="bg-gray-900 py-4">
             <div className="mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
-                        <img className="h-8 w-auto" src={logo} alt="Your Company" />
+                        <Link to="/"><img className="h-8 w-auto" src={logo} alt="Your Company" /></Link>
                     </div>
                     <div className="hidden sm:flex sm:space-x-4">
-                        <Link to="/" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Home</Link>
+                        <Link to="/" className="rounded-md bg-teal-500 hover:bg-teal-400 px-3 py-2 text-sm font-medium text-grey-900" aria-current="page">Home</Link>
+                    
+                        <span className="rounded-md bg-teal-500 hover:bg-teal-400 px-3 py-2 text-sm font-medium text-grey-900"><LogoutLink >Logout <AuthorizedUser value="email" /></LogoutLink></span>
                     </div>
+
                     <button
                         type="button"
                         className="sm:hidden inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white"

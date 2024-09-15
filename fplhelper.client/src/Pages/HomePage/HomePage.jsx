@@ -2,14 +2,17 @@ import React from 'react';
 import GetFplEventData from '../../Components/GetFplData/GetFplEventData';
 import GetPlayerData from '../../Components/GetFplData/GetPlayerData';
 import GetSinglePlayerData from '../../Components/GetFplData/GetSinglePlayerData';
+import AuthorizeView, { AuthorizedUser } from '../../Components/Authorization/AuthorizationView';
+
 const HomePage = () => {
+
     return (
-        <div className="bg-gray-100 min-h-screen flex flex-col">
+        <AuthorizeView>
                 <GetFplEventData />
-            <GetPlayerData />
-            <GetSinglePlayerData/>
-        </div>
-    );  
+                <GetPlayerData />
+                <GetSinglePlayerData />
+        </AuthorizeView>
+        );  
 };
 
 export default HomePage;
